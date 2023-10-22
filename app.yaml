@@ -4,8 +4,7 @@ vm: true
 entrypoint:
 
 runtime_config:
-  operating_system: "ubuntu22"
-  python_version: "3.12"
+  runtime: custom
   env: flex
 
 handlers:
