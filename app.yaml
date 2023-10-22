@@ -4,6 +4,7 @@ vm: true
 entrypoint:
 
 runtime_config:
+  operating_system: "ubuntu22"
   python_version: "2.7"
 
 handlers:
