@@ -3,7 +3,7 @@ import json
 
 
 app = Flask(__name__)
-
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 @app.route('/', methods=['POST'])
 def receive_json():
