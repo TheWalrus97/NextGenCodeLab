@@ -1,6 +1,5 @@
 runtime: python
 env: flex
 api_version: 1
-vm: true
 entrypoint:
 
